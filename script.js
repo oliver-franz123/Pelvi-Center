@@ -110,12 +110,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Form validation function
+    // Función de validación de formularios
     function validateForm() {
         let isValid = true;
         const requiredFields = appointmentForm.querySelectorAll('[required]');
         
-        // Reset previous validation errors
+        // Restablecer errores de validación anteriores
         const errorElements = appointmentForm.querySelectorAll('.error-message');
         errorElements.forEach(el => el.remove());
         
